@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREENOVATION</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">GREENOVATION</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Our Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Logo as Background and Product Video -->
+    <section id="home" class="hero">
+        <div class="overlay"></div> <!-- Overlay to darken the logo background -->
+        <div class="hero-content">
+            <h1>Innovative & Eco-Friendly Solutions</h1>
+            <p>Discover the future of clean energy with our biogas solutions.</p>
+            
+            <!-- Adding the product video -->
+            <video width="800" height="450" controls autoplay muted loop>
+                <source src="videos/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At GREENOVATION, we specialize in biogas technology, offering innovative products and services to foster sustainable energy solutions. With a focus on customer satisfaction and cutting-edge technology, we strive to make a positive impact on the environment.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Product</h2>
+        <div class="service">
+            <h3>BIOGAS DIGESTER</h3>
+            <p>A biogas digester transforms organic waste, like food scraps or animal manure, into biogas, which can be used for cooking, heating, or electricity. It's a simple, eco-friendly way to reduce waste and create renewable energy.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 GREENOVATION. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript should be included before the closing body tag -->
+    <script src="scripts.js"></script>
+</body>
+</html>
